@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> 로그인 </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <header id="login">
+      <h1><a href="index.html">시아티비</a></h1>
+      <div class="login_form">
+          <div class="input-enter">
+            <input type="text" minlength="5" maxlength="13" title="아이디" placeholder="아이디를 입력해주세요">
+            <span class="miss_id">아이디가 올바르지 않습니다.</span>
+          </div>
+          <div class="input-enter">
+            <input type="password" minlength="5" maxlength="13" title="패스워드" placeholder="비밀번호를 입력해주세요">
+            <span class="miss_password">비밀번호가 올바르지 않습니다.</span>
+            <span class="not_info">정보가 올바르지 않습니다.</span>
+          </div>
+          <div class="option-zone">
+            <div class="auto-login">
+                <label class="auto-checkbox">
+                    <input type="checkbox" name="auto_login">자동로그인
+                </label>
+            </div>
+            <a href="sign-up.html">회원가입</a>
+          </div>
+      </div>
+      <button type="submit">
+        로그인
+      </button>
+  </header>
+</body>
+</html>
